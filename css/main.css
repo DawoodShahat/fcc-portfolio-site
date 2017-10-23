@@ -447,6 +447,10 @@ input[type="button"]:hover {
   color: #fff;
 }
 
+input[type="button"]:active {
+	background-color: steelblue;
+}
+
 
 @media screen and (max-width:1280px){
   .contact {
@@ -519,6 +523,10 @@ footer {
 }
 
 .social-media i:hover {
+  background-color: steelblue;
+}
+
+.social-media i:active {
   background-color: steelblue;
 }
 
