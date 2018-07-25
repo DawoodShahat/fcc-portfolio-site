@@ -30,7 +30,7 @@ ul li.logo {
 	display:inline-block;
 	font-size:0.9em;
 	padding: 4px 0px;
-	color:white;
+	color: #fff;
   font-family: 'Play', sans-serif;
   margin-left:10px;
 }
@@ -44,8 +44,8 @@ ul > ul.nav li {
 }
 
 ul > ul.nav li:hover {
-	border-left:2px solid steelblue; 
-	border-right:2px solid steelblue; 
+	border-left:2px solid steelblue;
+	border-right:2px solid steelblue;
 }
 
 span {
@@ -55,7 +55,7 @@ span {
 .icon {
 	color: white;
 	display: none;
-}	
+}
 
 @media screen and (max-width:750px){
 	ul.nav {
@@ -70,12 +70,12 @@ span {
 		width:100%;
 		box-sizing: border-box;
 	}
-	
+
     .icon {
 		display:block;
 		text-align: right;
 		padding:7px 10px;
-	}	
+	}
 
 
 }
@@ -101,7 +101,7 @@ span {
   -o-align-items: center;
   -ms-align-items: center;
 
-  height:600px;
+  height: 100vh;
   margin: 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -401,7 +401,7 @@ span {
 
   width: 80%;
   margin: 0 auto;
-  height: 600px; 
+  height: 600px;
   /*background-color: #403E43;*/
   color: white;
 }
@@ -465,7 +465,7 @@ input[type="button"]:active {
   .contact-description, .form {
     width: 90%;
     padding: 10px;
-    
+
   }
 
   .contact-description {
@@ -482,7 +482,7 @@ input[type="button"]:active {
     -ms-order: 2;
     -o-order: 2;
     -moz-order: 2;
-    
+
     margin-right: 15px;
   }
 
